@@ -165,7 +165,6 @@ cython_debug/
 /tests/assets/
 /assets/
 .pytest_cache
-/config.ini
 /logs
 /utils/sample
 /utils/oracle_driver/instantclient_23_5
