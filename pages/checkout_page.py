@@ -8,7 +8,7 @@ class CheckoutPage:
         self.page = page
 
     def checkout(self):
-        self.page.locator("xpath=(//input[@type='checkbox'])[1]").check()
+        self.page.locator("xpath=(//input[@type='checkbox'])[1]").click()
         self.page.locator("xpath=//button[contains(text(), 'PROCEED TO CHECKOUT')]").click()
 
     def verify_checkout_details(self, text):

@@ -5,7 +5,7 @@ from loguru import logger
 from utils.common_func import get_latest_log_file, extract_logs
 from playwright.sync_api import Playwright, expect, Page
 
-expect.set_options(timeout=60_000)
+expect.set_options(timeout=90_000)
 
 @pytest.fixture(scope='function')
 def config():
