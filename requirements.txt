@@ -1,0 +1,12 @@
+playwright
+pytest-playwright
+pytest
+pytest-html
+pytest-csv
+pytest-metadata
+pytest-order
+pytest-xdist
+allure-pytest
+pandas
+loguru
+configparser
